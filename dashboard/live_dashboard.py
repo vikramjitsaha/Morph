@@ -142,7 +142,7 @@ def _build_layout(
 
     # ── Header ────────────────────────────────────────────────────────────────
     header_text = Text()
-    header_text.append("  🤖  PROTO-AGENT  ", style="bold white on dark_blue")
+    header_text.append("  🤖  MORPH  ", style="bold white on dark_blue")
     header_text.append(f"  Requirements: {requirements_file}  ", style="bold dim")
     header_text.append(f"  Provider: {config.LLM_PROVIDER.upper()} / {config.get_active_model()}  ", style="cyan")
     layout["header"].update(Panel(Align.center(header_text), style="dark_blue", padding=(0, 0)))

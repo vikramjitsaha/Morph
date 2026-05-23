@@ -41,8 +41,8 @@ class LLMClient:
             self.headers  = {
                 "Content-Type":  "application/json",
                 "Authorization": f"Bearer {config.OPENROUTER_API_KEY}",
-                "HTTP-Referer":  "https://proto-agent.local",
-                "X-Title":       "Proto-Agent",
+                "HTTP-Referer":  "https://morph.local",
+                "X-Title":       "Morph",
             }
 
     def _payload(self, system: str, user: str, stream: bool = False) -> dict:

@@ -1,5 +1,5 @@
 """
-main.py — Proto-Agent Orchestrator
+main.py — Morph Orchestrator
 ====================================
 Reads a requirements.md → plans → launches 7 parallel specialist AI agents
 → tracks everything in a live Rich terminal dashboard → zips all output.
@@ -30,7 +30,7 @@ from packager import build_zip
 # ─── CLI ─────────────────────────────────────────────────────────────────────
 def parse_args():
     p = argparse.ArgumentParser(
-        prog="proto-agent",
+        prog="morph",
         description="AI multi-agent React/Vite prototype generator",
     )
     p.add_argument(
@@ -110,7 +110,7 @@ async def main():
     requirements = read_requirements(args.requirements)
     output_dir   = Path(args.output)
 
-    console.print(f"\n[bold cyan]🤖 Proto-Agent[/bold cyan] — starting up")
+    console.print(f"\n[bold cyan]🤖 Morph[/bold cyan] — starting up")
     console.print(f"  Requirements : [yellow]{args.requirements}[/yellow]")
     console.print(f"  LLM          : [cyan]{config.LLM_PROVIDER} / {config.get_active_model()}[/cyan]")
     console.print(f"  Output       : [green]{output_dir}[/green]")
@@ -204,7 +204,7 @@ async def main():
 
     # ── Summary ───────────────────────────────────────────────────────────────
     console.print()
-    console.rule("[bold green]🎉 Proto-Agent Complete[/bold green]")
+    console.rule("[bold green]🎉 Morph Complete[/bold green]")
     console.print()
     console.print(f"  📦 [bold]ZIP:[/bold] [green]{zip_path}[/green]")
     console.print(f"  📁 [bold]Workspace:[/bold] {workspace}")

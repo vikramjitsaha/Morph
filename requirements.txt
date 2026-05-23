@@ -1,4 +1,4 @@
-# proto-agent dependencies
+# morph dependencies
 # Install with: pip install -r requirements.txt
 
 # HTTP client (async + streaming)

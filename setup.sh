@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# setup.sh — One-shot setup for proto-agent
+# setup.sh — One-shot setup for Morph
 # Usage: chmod +x setup.sh && ./setup.sh
 
 set -e
@@ -9,7 +9,7 @@ VENV_DIR=".venv"
 
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "  🤖  Proto-Agent Setup"
+echo "  🤖  Morph Setup"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
 

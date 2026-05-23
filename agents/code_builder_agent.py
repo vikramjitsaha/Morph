@@ -40,7 +40,7 @@ _BANNED_PACKAGES = {
 }
 
 # ── Reference version table ───────────────────────────────────────────────────
-# Loaded once from the proto-agent's own package.json so generated projects
+# Loaded once from the Morph's own package.json so generated projects
 # always use the same known-good, tested versions rather than LLM guesses.
 def _load_reference_versions() -> dict[str, str]:
     """Return a flat {package: version} map from the repo-root package.json."""

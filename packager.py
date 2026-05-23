@@ -55,7 +55,7 @@ def _build_manifest(
     timestamp: str,
 ) -> str:
     lines = [
-        f"# Proto-Agent Manifest",
+        f"# Morph Manifest",
         f"",
         f"**Project:** {project_name}",
         f"**Generated:** {timestamp}",

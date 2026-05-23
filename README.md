@@ -11,7 +11,7 @@
 
 ## ✨ What It Does
 
-Proto-Agent reads your requirements and spins up **8 parallel specialist AI agents**, each tackling a different part of your project simultaneously:
+Morph reads your requirements and spins up **8 parallel specialist AI agents**, each tackling a different part of your project simultaneously:
 
 | Agent | Output | Description |
 |-------|--------|-------------|
@@ -32,7 +32,7 @@ Everything gets packaged into a single timestamped ZIP file.
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
-║  🤖  PROTO-AGENT  │  Requirements: requirements.md  │  OpenRouter   ║
+║  🤖  MORPH        │  Requirements: requirements.md  │  OpenRouter   ║
 ╠══════════════════════════════════════════════════════════════════════╣
 ║  🕐 02:34  ✅ 5/7 done  🔄 2 running  ❌ 0 failed                  ║
 ╠══════════════════════╦═══════════════════════════════════════════════╣
@@ -58,7 +58,7 @@ Everything gets packaged into a single timestamped ZIP file.
 ### 1. Clone & Setup
 ```bash
 git clone <repo>
-cd proto-agent
+cd MORPH
 chmod +x setup.sh && ./setup.sh
 ```
 
