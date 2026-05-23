@@ -1,4 +1,4 @@
-# 🤖 Proto-Agent — AI Multi-Agent React/Vite Prototype Generator
+# 🤖 Morph — AI Multi-Agent React/Vite Prototype Generator
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)
 [![LLM: OpenRouter](https://img.shields.io/badge/LLM-OpenRouter-orange.svg)](https://openrouter.ai)
